@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    background-color: cornflowerblue;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    height: 41px;
+}
+  
+.menuList li{
+    display: inline;
+    list-style: none;
+}

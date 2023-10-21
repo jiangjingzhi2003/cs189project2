@@ -1,0 +1,40 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  max-height: 1000px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  color: black;
+}
+
+.article1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 270px;
+  top: 100px;
+}
+
+.sideBox1 {
+  display: flex;
+  position: relative;
+  left: 350px;
+  bottom: 470px;
+}
+
+.sideBox2 {
+  display: flex;
+  position: relative;
+  left: 350px;
+  bottom: 470px;
+}

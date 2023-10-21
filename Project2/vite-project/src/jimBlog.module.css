@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    align-items: center;
+}
+
+.slide1 {
+    position: absolute;
+    justify-content: center;
+    top: 200px;
+    left: 430px;
+}
+
+.content {
+    position: relative;
+    top: 500px;
+    right: 0px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.dates {
+    position: relative;
+    top: 475px;
+    text-align: left;
+}
