@@ -5,12 +5,13 @@ import styles from "./jimBlog.module.css"
 import img2 from "./images/chinaUS.webp"
 import SideBar from "./component/SideBar";
 import img4 from './images/images copy.png';
+import Title from "./component/Title"
 
 function Dblog() {
 
     return (
         <>
-            <h1>Blog1</h1>
+            <Title/>
             <Menu/> 
             <SideBar/>
 

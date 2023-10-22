@@ -4,12 +4,13 @@ import img1 from "./images/MicroSoftDeal.webp"
 import styles from "./jimBlog.module.css"
 import img2 from "./images/chinaUS.webp"
 import SideBar from "./component/SideBar";
+import Title from "./component/Title"
 
 function Jblog() {
 
     return (
         <>
-            <h1>Blog1</h1>
+            <Title/>
             <Menu/> 
             <SideBar/>
 

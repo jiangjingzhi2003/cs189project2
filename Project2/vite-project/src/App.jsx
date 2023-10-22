@@ -16,12 +16,13 @@ import {
 import Jblog from './jimBlog';
 import Blog2 from './Blog2';
 import App2 from './App2';
+import Title from './component/Title'
 
 function MainPage() {
 
   return (
     <>
-      <h1 className={styles["title"]}>BOOMBO</h1>
+      <Title/>
 
       <Menu/>
 
@@ -37,18 +38,9 @@ function MainPage() {
 
         <SideBox img={img3} 
         link="/Blog2" 
-        title="Microsoft completes $69bn takeover of Call of Duty maker Activision Blizzard"/>
+        title="Hiking in Sliver Fall state Park Oregon"/>
 
       </div>
-
-      <div className={styles["sideBox2"]}>
-
-        <SideBox img={img1} 
-        link="/jimBlog"
-        title="Microsoft completes $69bn takeover of Call of Duty maker Activision Blizzard"/>
-
-      </div>
-
       <div className={styles["sideBox2"]}>
 
         <SideBox img={img2} 
