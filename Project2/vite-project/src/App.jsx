@@ -7,6 +7,7 @@ import img3 from "./images/silverFall.jpeg"
 import SideBox from "./component/SideBox";
 import Menu from './component/menu';
 import SideBar from "./component/SideBar"
+import img4 from './images/images copy.png';
 import {
   createBrowserRouter,
   RouterProvider,
@@ -14,6 +15,7 @@ import {
 } from "react-router-dom"
 import Jblog from './jimBlog';
 import Blog2 from './Blog2';
+import App2 from './App2';
 
 function MainPage() {
 
@@ -26,9 +28,9 @@ function MainPage() {
       <SideBar/>
 
       <div className={styles["article1"]}>
-        <BlogDiv title="Microsoft completes $69bn takeover of Call of Duty maker Activision Blizzard" 
-        src="/Blog2"
-        img={img1} />
+        <BlogDiv title="Laker SEASON 2023 - 2024" 
+        src="/Dblog"
+        img={img4} />
       </div>
 
       <div className={styles["sideBox1"]}>
@@ -70,6 +72,10 @@ const router = createBrowserRouter([
   {
       path:"/Blog2",
       element: <Blog2/>
+  },
+  {
+    path: "/Dblog",
+    element: <App2/>
   }
 ])
 
