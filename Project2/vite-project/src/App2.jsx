@@ -17,7 +17,9 @@ function Dblog() {
 
             <div className={styles["slide1"]}>
                 <img src = {img4}/>
-                
+            </div>
+            <div>
+                <h5 className={styles["dates"]}>Date: 10/20/2023</h5>
             </div>
             <div className={styles["content"]}>
                 <p>
